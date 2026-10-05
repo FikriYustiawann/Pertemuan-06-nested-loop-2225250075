@@ -9,9 +9,7 @@
 
 ## Tujuan
 
-Pada pertemuan ini mempelajari penggunaan nested loop, pola, akumulasi, dan pencacahan dalam Python.
-
-Tugas yang dibuat adalah program Tabel Perkalian dan Statistik menggunakan nested loop.
+Pada pertemuan ini mempelajari penggunaan nested loop, pola, akumulasi, dan pencacahan dalam Python. Tugas yang dibuat adalah program Tabel Perkalian dan Statistik menggunakan nested loop.
 
 ## Struktur Program
 
