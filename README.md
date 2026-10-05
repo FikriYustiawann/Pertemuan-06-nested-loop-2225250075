@@ -44,8 +44,8 @@ Program membuat tabel perkalian berukuran n × n dan menghitung:
 
 Jalankan program dengan perintah:
 
-```bash
-python3 tugas/tabel_perkalian_dan_statistik.py
+``bash
+python3 tugas/tabel_perkalian_dan_statistik.py``
 
 ## Hasil Pengujian
 
