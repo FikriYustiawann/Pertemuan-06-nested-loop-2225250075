@@ -1,10 +1,11 @@
-# Pertemuan 06 - Nested Loop, Pola, Akumulasi, dan Pencacahan
+# Pertemuan-06-nested-loop-2225250075
 
-## Identitas
-
-- Nama: Fikri Yustiawan
-- NIM: 2225250075
-- Kelas: 3-E
+| **Keterangan** | **Data** |
+|---|---|
+| **Nama** | Fikri Yustiawan |
+| **NIM** | 2225250075 |
+| **Kelas** | 3-E |
+| **Jurusan** | Pendidikan Matematika |
 
 ## Tujuan
 
