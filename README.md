@@ -56,9 +56,7 @@ python3 tugas/tabel_perkalian_dan_statistik.py``
 
 ## Analisis Efisiensi
 
-Untuk input `n`, loop dalam berjalan sebanyak `n` kali untuk setiap iterasi loop luar.
-
-Karena loop luar juga berjalan sebanyak `n` kali, maka badan loop dalam berjalan sebanyak:
+Untuk input `n`, loop dalam berjalan sebanyak `n` kali untuk setiap iterasi loop luar. Karena loop luar juga berjalan sebanyak `n` kali, maka badan loop dalam berjalan sebanyak:
 
 `n × n = n²`
 
