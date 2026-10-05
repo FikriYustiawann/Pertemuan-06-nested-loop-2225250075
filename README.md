@@ -46,3 +46,35 @@ Jalankan program dengan perintah:
 
 ```bash
 python3 tugas/tabel_perkalian_dan_statistik.py
+
+## Hasil Pengujian
+
+| Input | Hasil yang Diharapkan | Keluaran Aktual | Status |
+|---|---|---|---|
+| `n = 1` | Total seluruh hasil = 1, hasil genap = 0 | Total seluruh hasil = 1, hasil genap = 0 | Berhasil |
+| `n = 2` | Total seluruh hasil = 9, hasil genap = 3 | Total seluruh hasil = 9, hasil genap = 3 | Berhasil |
+| `n = 3` | Total seluruh hasil = 36, hasil genap = 5 | Total seluruh hasil = 36, hasil genap = 5 | Berhasil |
+
+## Analisis Efisiensi
+
+Untuk input `n`, loop dalam berjalan sebanyak `n` kali untuk setiap iterasi loop luar.
+
+Karena loop luar juga berjalan sebanyak `n` kali, maka badan loop dalam berjalan sebanyak:
+
+`n × n = n²`
+
+Jadi, kompleksitas waktu program adalah `O(n²)`.
+
+## Refleksi
+
+Salah satu kesalahan yang dapat terjadi pada nested loop adalah menempatkan variabel `total_baris` di luar loop luar. Jika dilakukan, jumlah setiap baris akan terus terakumulasi dan tidak dimulai kembali dari nol.
+
+Cara memperbaikinya adalah menempatkan `total_baris = 0` di dalam loop luar sebelum loop dalam dimulai, sehingga setiap baris memiliki akumulator sendiri.
+
+## Exit Ticket
+
+- Hal yang paling menentukan jumlah iterasi nested loop adalah nilai `n` dan jumlah perulangan pada loop luar dan loop dalam.
+
+- Perbedaan akumulasi per baris dan akumulasi keseluruhan adalah akumulasi per baris digunakan untuk menghitung jumlah hasil pada satu baris dan direset setiap pergantian baris, sedangkan akumulasi keseluruhan terus menjumlahkan semua hasil dari seluruh baris.
+
+- Bagian program Pertemuan 6 yang paling tepat dijadikan fungsi pada Pertemuan 7 adalah bagian pembuatan tabel perkalian dan perhitungan statistik, karena bagian tersebut memiliki proses yang jelas dan dapat dipisahkan menjadi fungsi agar program lebih terstruktur dan mudah digunakan kembali.
